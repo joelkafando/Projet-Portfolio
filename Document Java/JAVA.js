@@ -12,7 +12,6 @@ const burgerActive = () => {
 	nav.classList.toggle('active')
 }
 
-
 const scrollActive = () => {
     sections.forEach(section => {
         let top = window.scrollY;
